@@ -8,13 +8,13 @@ It ingests **RBI CTS FAQs** and **multiple Indian banks’ cheque collection pol
 - Retrieve and fuse policy snippets across banks
 - Generate LLM answers that **compare RBI guidance vs each bank’s policy** for specific compliance questions (e.g., payee name validation, endorsement irregularities, Positive Pay, outstation cheques).
 
-This repo is intentionally structured as a **portfolio-ready project** for engineering- and architect-level roles working on GenAI, RAG, or applied NLP in regulated domains.
+This repository follows a production-ready structure to highlight the core capability.
 
 ---
 
 ## Why this project is relevant
 
-From a hiring manager’s perspective, FinRAG demonstrates:
+ FinRAG demonstrates:
 
 - **End-to-end ownership of a GenAI system**  
   From ingestion and vector DB integration to retrieval logic, prompt design, and API exposure.
