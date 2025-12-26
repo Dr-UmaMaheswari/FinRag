@@ -12,7 +12,7 @@ This repo is intentionally structured as a **portfolio-ready project** for engin
 
 ---
 
-## Why this project is relevant for recruiters
+## Why this project is relevant
 
 From a hiring manager’s perspective, FinRAG demonstrates:
 
