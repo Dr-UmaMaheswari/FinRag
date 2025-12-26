@@ -29,9 +29,19 @@ python -m venv .venv
 source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 pip install -U pip
 pip install -e .
+Options:
+pip install -e .[dev]
+pip install -e .[milvus]
+pip install -e .[hybrid]
+pip install -e .[dev,milvus,hybrid]
 uvicorn rag_starterkit.main:app --reload --port 8000
 2) Run with Docker
+For CPU Only Machine:
 docker compose up --build
+
+FOR GPU Enabled Machine:
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d --build
+
 
 API
 

@@ -1,0 +1,335 @@
+{
+  "pdf": "samples/documents/TMB.pdf",
+  "doc_id": "tmb",
+  "strategy_used": "headings_fallback",
+  "pages": 23,
+  "chunks": 12,
+  "chunk_samples": [
+    {
+      "chunk_id": "tmb:ee47551a6fc19054",
+      "doc_id": "tmb",
+      "page_start": 4,
+      "page_end": 5,
+      "order_key": "0004-0000-0001",
+      "title_path": [
+        "Cheques presented in local clearing/ CTS clearing",
+        "Cheque truncation system"
+      ],
+      "number_path": [
+        "2.1",
+        "2.1.1"
+      ],
+      "concept_tags": [
+        "CTS",
+        "DISHONOUR",
+        "OUTSTATION"
+      ],
+      "text_preview": "Cheque truncation system\nCheque Collection policy  \n \nP a g e  | 4 \nVersion 17.0 \n \n                                                                               \n2.1.1 Cheque truncation system \nThe Cheque Collection Policy covers following guidelines issued by the regulators \nfor smooth conduct of clearing cycle.         \nCheque clearing process under revised scenario of CTS based clearing system \n2.1.1A) Cheque Truncation System is now working as a single grid namely National \nGrid. Our Chenn"
+    },
+    {
+      "chunk_id": "tmb:f87f3e9b41338474",
+      "doc_id": "tmb",
+      "page_start": 6,
+      "page_end": 6,
+      "order_key": "0006-0000-0001",
+      "title_path": [
+        "Cheques presented in local clearing/ CTS clearing",
+        "Positive Pay System"
+      ],
+      "number_path": [
+        "2.1",
+        "2.1.2"
+      ],
+      "concept_tags": [
+        "CTS",
+        "PPS"
+      ],
+      "text_preview": "Positive Pay System\nCheque Collection policy  \n \nP a g e  | 6 \nVersion 17.0 \n \n                                                                               \n2.1.1.R) Cheques deposited at branch counters and cheques deposited in the drop-\nbox within the branch premises and cheques deposited at CDK machine installed at \nE-lobbies before the specified cut-off time, will be sent for clearance on same day, \nfor which the clearance period will be T+1 working day. Cheques deposited after this \ncut of"
+    },
+    {
+      "chunk_id": "tmb:826b64abb43916c5",
+      "doc_id": "tmb",
+      "page_start": 7,
+      "page_end": 7,
+      "order_key": "0007-0000-0001",
+      "title_path": [
+        "Outstation cheques"
+      ],
+      "number_path": [
+        "2.2"
+      ],
+      "concept_tags": [
+        "CTS",
+        "OUTSTATION"
+      ],
+      "text_preview": "Outstation cheques\nCheque Collection policy  \n \nP a g e  | 7 \nVersion 17.0 \n \n                                                                               \nOTP authentication and with their regular login provisions in their net banking.  An e-\nacknowledgement for the entries made by the customer will be sent to their \nregistered e-mail id.   \n \n2.2 Outstation cheques \n \nCheques drawn on other banks at outstation centres (who are not participating in \nCTS clearing) will normally be collected th"
+    },
+    {
+      "chunk_id": "tmb:4cc90aed28910ec9",
+      "doc_id": "tmb",
+      "page_start": 7,
+      "page_end": 7,
+      "order_key": "0007-0000-0001",
+      "title_path": [
+        "Bills for Collection",
+        "Payment of interest for delays in collection of bills"
+      ],
+      "number_path": [
+        "2.3",
+        "2.3.1"
+      ],
+      "concept_tags": [
+        "CTS",
+        "OUTSTATION"
+      ],
+      "text_preview": "Payment of interest for delays in collection of bills\nCheque Collection policy  \n \nP a g e  | 7 \nVersion 17.0 \n \n                                                                               \nOTP authentication and with their regular login provisions in their net banking.  An e-\nacknowledgement for the entries made by the customer will be sent to their \nregistered e-mail id.   \n \n2.2 Outstation cheques \n \nCheques drawn on other banks at outstation centres (who are not participating in \nCTS clea"
+    },
+    {
+      "chunk_id": "tmb:bd537e27186d33d0",
+      "doc_id": "tmb",
+      "page_start": 8,
+      "page_end": 8,
+      "order_key": "0008-0000-0001",
+      "title_path": [
+        "Cheques payable in foreign countries",
+        "Foreign cheques / drafts denominated in"
+      ],
+      "number_path": [
+        "2.4",
+        "2.4.2"
+      ],
+      "concept_tags": [
+        "DISHONOUR",
+        "IMMEDIATE_CREDIT",
+        "OUTSTATION"
+      ],
+      "text_preview": "Foreign cheques / drafts denominated in\nCheque Collection policy  \n \nP a g e  | 8 \nVersion 17.0 \n \n                                                                               \nAll cheques will be sent directly to the drawee bank with instructions to credit the \nproceeds to our Nostro account maintained in the respective currency with our \ncorrespondent banks. The customer has to pay upfront fee as demanded by the \noverseas banks at the time of sending the cheques for collection. Since these \n"
+    }
+  ],
+  "all_chunks": [
+    {
+      "chunk_id": "tmb:ee47551a6fc19054",
+      "doc_id": "tmb",
+      "page_start": 4,
+      "page_end": 5,
+      "order_key": "0004-0000-0001",
+      "title_path": [
+        "Cheques presented in local clearing/ CTS clearing",
+        "Cheque truncation system"
+      ],
+      "number_path": [
+        "2.1",
+        "2.1.1"
+      ],
+      "concept_tags": [
+        "CTS",
+        "DISHONOUR",
+        "OUTSTATION"
+      ],
+      "text_preview": "Cheque truncation system\nCheque Collection policy  \n \nP a g e  | 4 \nVersion 17.0 \n \n                                                                               \n2.1.1 Cheque truncation system \nThe Cheque Collection Policy covers following guidelines issued by the regulators \nfor smooth conduct of clearing cycle.         \nCheque clearing process under revised scenario of CTS based clearing system \n2.1.1A) Cheque Truncation System is now working as a single grid namely National \nGrid. Our Chenn"
+    },
+    {
+      "chunk_id": "tmb:f87f3e9b41338474",
+      "doc_id": "tmb",
+      "page_start": 6,
+      "page_end": 6,
+      "order_key": "0006-0000-0001",
+      "title_path": [
+        "Cheques presented in local clearing/ CTS clearing",
+        "Positive Pay System"
+      ],
+      "number_path": [
+        "2.1",
+        "2.1.2"
+      ],
+      "concept_tags": [
+        "CTS",
+        "PPS"
+      ],
+      "text_preview": "Positive Pay System\nCheque Collection policy  \n \nP a g e  | 6 \nVersion 17.0 \n \n                                                                               \n2.1.1.R) Cheques deposited at branch counters and cheques deposited in the drop-\nbox within the branch premises and cheques deposited at CDK machine installed at \nE-lobbies before the specified cut-off time, will be sent for clearance on same day, \nfor which the clearance period will be T+1 working day. Cheques deposited after this \ncut of"
+    },
+    {
+      "chunk_id": "tmb:826b64abb43916c5",
+      "doc_id": "tmb",
+      "page_start": 7,
+      "page_end": 7,
+      "order_key": "0007-0000-0001",
+      "title_path": [
+        "Outstation cheques"
+      ],
+      "number_path": [
+        "2.2"
+      ],
+      "concept_tags": [
+        "CTS",
+        "OUTSTATION"
+      ],
+      "text_preview": "Outstation cheques\nCheque Collection policy  \n \nP a g e  | 7 \nVersion 17.0 \n \n                                                                               \nOTP authentication and with their regular login provisions in their net banking.  An e-\nacknowledgement for the entries made by the customer will be sent to their \nregistered e-mail id.   \n \n2.2 Outstation cheques \n \nCheques drawn on other banks at outstation centres (who are not participating in \nCTS clearing) will normally be collected th"
+    },
+    {
+      "chunk_id": "tmb:4cc90aed28910ec9",
+      "doc_id": "tmb",
+      "page_start": 7,
+      "page_end": 7,
+      "order_key": "0007-0000-0001",
+      "title_path": [
+        "Bills for Collection",
+        "Payment of interest for delays in collection of bills"
+      ],
+      "number_path": [
+        "2.3",
+        "2.3.1"
+      ],
+      "concept_tags": [
+        "CTS",
+        "OUTSTATION"
+      ],
+      "text_preview": "Payment of interest for delays in collection of bills\nCheque Collection policy  \n \nP a g e  | 7 \nVersion 17.0 \n \n                                                                               \nOTP authentication and with their regular login provisions in their net banking.  An e-\nacknowledgement for the entries made by the customer will be sent to their \nregistered e-mail id.   \n \n2.2 Outstation cheques \n \nCheques drawn on other banks at outstation centres (who are not participating in \nCTS clea"
+    },
+    {
+      "chunk_id": "tmb:bd537e27186d33d0",
+      "doc_id": "tmb",
+      "page_start": 8,
+      "page_end": 8,
+      "order_key": "0008-0000-0001",
+      "title_path": [
+        "Cheques payable in foreign countries",
+        "Foreign cheques / drafts denominated in"
+      ],
+      "number_path": [
+        "2.4",
+        "2.4.2"
+      ],
+      "concept_tags": [
+        "DISHONOUR",
+        "IMMEDIATE_CREDIT",
+        "OUTSTATION"
+      ],
+      "text_preview": "Foreign cheques / drafts denominated in\nCheque Collection policy  \n \nP a g e  | 8 \nVersion 17.0 \n \n                                                                               \nAll cheques will be sent directly to the drawee bank with instructions to credit the \nproceeds to our Nostro account maintained in the respective currency with our \ncorrespondent banks. The customer has to pay upfront fee as demanded by the \noverseas banks at the time of sending the cheques for collection. Since these \n"
+    },
+    {
+      "chunk_id": "tmb:9996d4c7c8d9314b",
+      "doc_id": "tmb",
+      "page_start": 8,
+      "page_end": 9,
+      "order_key": "0008-0000-0001",
+      "title_path": [
+        "Immediate credit of local / outstation cheques / instruments"
+      ],
+      "number_path": [
+        "2.5"
+      ],
+      "concept_tags": [
+        "CTS",
+        "DISHONOUR",
+        "IMMEDIATE_CREDIT",
+        "OUTSTATION"
+      ],
+      "text_preview": "Immediate credit of local / outstation cheques / instruments\nCheque Collection policy  \n \nP a g e  | 8 \nVersion 17.0 \n \n                                                                               \nAll cheques will be sent directly to the drawee bank with instructions to credit the \nproceeds to our Nostro account maintained in the respective currency with our \ncorrespondent banks. The customer has to pay upfront fee as demanded by the \noverseas banks at the time of sending the cheques for coll"
+    },
+    {
+      "chunk_id": "tmb:ffd04c2a1aabbb09",
+      "doc_id": "tmb",
+      "page_start": 10,
+      "page_end": 10,
+      "order_key": "0010-0000-0001",
+      "title_path": [
+        "Service charges for collection of cheques denominated in foreign currency"
+      ],
+      "number_path": [
+        "3.1"
+      ],
+      "concept_tags": [],
+      "text_preview": "Service charges for collection of cheques denominated in foreign currency\nCheque Collection policy  \n \nP a g e  | 10 \nVersion 17.0 \n \n                                                                               \narrangement with its correspondent bank for speedy collection of such \ninstrument. After receipt of the cheque proceeds in our Nostro account, we would \ngive credit to the customer’s account after taking into account cooling periods as \napplicable to the countries concerned. The bank h"
+    },
+    {
+      "chunk_id": "tmb:b2bc848463ef82b8",
+      "doc_id": "tmb",
+      "page_start": 11,
+      "page_end": 11,
+      "order_key": "0011-0000-0001",
+      "title_path": [
+        "Payment of interest for delayed collections of foreign cheques"
+      ],
+      "number_path": [
+        "4.1"
+      ],
+      "concept_tags": [
+        "OUTSTATION"
+      ],
+      "text_preview": "Payment of interest for delayed collections of foreign cheques\nCheque Collection policy  \n \nP a g e  | 11 \nVersion 17.0 \n \n                                                                               \n4. Payment of interest for delayed collection of  local / outstation cheques / \ninstruments \n \nAs part of the compensation policy of the bank, the bank will pay interest to its \ncustomer on the amount of collection instruments in case there is delay in giving \ncredit beyond the time period mentio"
+    },
+    {
+      "chunk_id": "tmb:4cbe65702a595de9",
+      "doc_id": "tmb",
+      "page_start": 11,
+      "page_end": 13,
+      "order_key": "0011-0000-0001",
+      "title_path": [
+        "Payment of interest for delayed collection of local cheques / instruments"
+      ],
+      "number_path": [
+        "4.2"
+      ],
+      "concept_tags": [
+        "IMMEDIATE_CREDIT",
+        "OUTSTATION"
+      ],
+      "text_preview": "Payment of interest for delayed collection of local cheques / instruments\nCheque Collection policy  \n \nP a g e  | 11 \nVersion 17.0 \n \n                                                                               \n4. Payment of interest for delayed collection of  local / outstation cheques / \ninstruments \n \nAs part of the compensation policy of the bank, the bank will pay interest to its \ncustomer on the amount of collection instruments in case there is delay in giving \ncredit beyond the time pe"
+    },
+    {
+      "chunk_id": "tmb:63d12607ee05989e",
+      "doc_id": "tmb",
+      "page_start": 14,
+      "page_end": 14,
+      "order_key": "0014-0000-0001",
+      "title_path": [
+        "Dealing with the dishonored outward clearing instruments"
+      ],
+      "number_path": [
+        "11.1"
+      ],
+      "concept_tags": [
+        "DISHONOUR"
+      ],
+      "text_preview": "Dealing with the dishonored outward clearing instruments\nCheque Collection policy  \n \nP a g e  | 14 \nVersion 17.0 \n \n                                                                               \n9. Procedure for return / dispatch of dishonoured cheques \n \na. Branches will return dishonoured cheques presented through clearing \nhouses strictly as per the return discipline prescribed for respective clearing \nhouse in terms of uniform regulations and rules for bankers’ clearing \nhouses. \nb. In rel"
+    },
+    {
+      "chunk_id": "tmb:eb32bdd738d3c31d",
+      "doc_id": "tmb",
+      "page_start": 15,
+      "page_end": 15,
+      "order_key": "0015-0000-0001",
+      "title_path": [
+        "Dealing with frequent dishonor of inward clearing cheques of ₹ 1 crore and"
+      ],
+      "number_path": [
+        "11.2"
+      ],
+      "concept_tags": [
+        "DISHONOUR"
+      ],
+      "text_preview": "Dealing with frequent dishonor of inward clearing cheques of ₹ 1 crore and\nCheque Collection policy  \n \nP a g e  | 15 \nVersion 17.0 \n \n                                                                               \n11.2 Dealing with frequent dishonor of inward clearing cheques of ₹ 1 crore and \nabove \nWith a view to enforce financial discipline among the customers, bank has decided to \nintroduce a condition for operation of accounts with cheque facility that in the event \nof dishonor of a cheque"
+    },
+    {
+      "chunk_id": "tmb:c13f581f55914764",
+      "doc_id": "tmb",
+      "page_start": 16,
+      "page_end": 23,
+      "order_key": "0016-0000-0001",
+      "title_path": [
+        "Dealing with frequent dishonor of inward clearing cheques of value less than",
+        "Charges for dishonor of cheques presented through clearing which are"
+      ],
+      "number_path": [
+        "11.3",
+        "11.3.1"
+      ],
+      "concept_tags": [
+        "CTS",
+        "DISHONOUR"
+      ],
+      "text_preview": "Charges for dishonor of cheques presented through clearing which are\nCheque Collection policy  \n \nP a g e  | 16 \nVersion 17.0 \n \n                                                                               \ncheque facility that in the event of dishonor of a cheque valuing less than rupees one \ncrore drawn on a particular account of the drawer on four occasions during the \nfinancial year for want of sufficient funds in the account, no fresh cheque book would \nbe issued. The bank may also consid"
+    }
+  ]
+}

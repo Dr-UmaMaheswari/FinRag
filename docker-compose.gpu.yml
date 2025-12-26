@@ -1,0 +1,5 @@
+services:
+  rag:
+    gpus: all
+    environment:
+      - TORCH_DEVICE=cuda

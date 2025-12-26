@@ -11,7 +11,7 @@ def judge_answer(answer: str, contexts: list[dict]) -> dict:
     """
 
     sources_text = "\n\n".join(
-        [f"Source {i+1}:\n{c['text'][:1200]}" for i, c in enumerate(contexts)]
+        [f"Source {i+1}:\n{c['text'][:800]}" for i, c in enumerate(contexts[:2])]
     )
 
     prompt = f"""
@@ -49,7 +49,7 @@ Return ONLY valid JSON in this exact schema:
         }
     }
 
-    resp = requests.post(OLLAMA_URL, json=payload, timeout=300)
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=60)
     resp.raise_for_status()
 
     raw = resp.json().get("response", "").strip()

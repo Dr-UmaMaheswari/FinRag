@@ -9,7 +9,8 @@ from rag_starterkit.llm.safety import SAFE_REFUSAL_MESSAGE
 
 def generate_answer(
     query: str,
-    contexts: List[Dict]
+    contexts: List[Dict],
+    use_judge: bool = True,
 ) -> Tuple[str, List[Citation], AnswerQuality]:
 
     # Case 1: No retrieved context → safe refusal
@@ -44,7 +45,7 @@ def generate_answer(
     citations = [
         Citation(
             source_id=c["id"],
-            snippet=(c["text"] or "")[:300]
+            snippet=(c["text"] or "")[:50]
         )
         for c in contexts
     ]
@@ -52,13 +53,33 @@ def generate_answer(
     # -----------------------------
     # 3) Judge answer (Qwen2.5)
     # -----------------------------
-    judge_result = judge_answer(answer, contexts)
+    if use_judge:
+        try:
+            judge_result = judge_answer(answer, contexts)
+        except Exception as e:
+            judge_result = {
+                "groundedness": None,
+                "confidence": None,
+                "hallucination_risk": "unknown",
+                "unsupported_points": [],
+                "error": str(e),
+            }
+    else:
+        # Judge explicitly disabled
+        judge_result = {
+            "groundedness": None,
+            "confidence": None,
+            "hallucination_risk": "unknown",
+            "unsupported_points": [],
+            "error": "judge_disabled",
+        }
+
     quality = AnswerQuality(**judge_result)
 
     # -----------------------------
     # 4) Auto-reject unsafe answers
     # -----------------------------
-    if quality.hallucination_risk == "high":
+    if use_judge and quality.hallucination_risk == "high":
         quality.rejected = True
         return SAFE_REFUSAL_MESSAGE, citations, quality
 

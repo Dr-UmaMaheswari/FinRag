@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List,Literal
+from typing import List,Literal,Optional
 
 class IngestRequest(BaseModel):
     path: str = Field(..., description="Local folder path containing documents to ingest.")
@@ -13,11 +13,12 @@ class Citation(BaseModel):
     snippet: str
 
 class AnswerQuality(BaseModel):
-    groundedness: float
-    confidence: float
-    hallucination_risk: Literal["low", "medium", "high"]
+    groundedness: Optional[float] = None
+    confidence: Optional[float] = None
+    hallucination_risk: Literal["low", "medium", "high", "unknown"] = "unknown"
     unsupported_points: list[str] = []
-    rejected: bool = False
+    error: Optional[str] = None
+
 
 class QueryResponse(BaseModel):
     answer: str

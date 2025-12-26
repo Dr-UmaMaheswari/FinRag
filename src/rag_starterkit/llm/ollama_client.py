@@ -14,6 +14,7 @@ def generate_llm_answer(prompt: str) -> str:
         }
     }
 
-    resp = requests.post(OLLAMA_URL, json=payload, timeout=300)
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=500)
+    print(f"Response {resp}")
     resp.raise_for_status()
     return resp.json()["response"]
